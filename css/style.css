@@ -210,14 +210,18 @@ h4,
         padding: 1.2rem 1rem;
     }
     .footer-tail {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        flex-direction: row;
         
+        display: flex;
+        justify-content: space-between; 
     }
     h4 {
-        margin-right: auto;
+        margin-right: 28%;
     }
-
+    #footer-p {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    
 }
 
