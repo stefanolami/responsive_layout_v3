@@ -4,7 +4,7 @@
 }
 
 body {
-    margin-top: 0;
+    margin: 0 0;
     text-align: center;
     background-color: rgb(250, 250, 250);
 }
@@ -14,7 +14,7 @@ header {
     flex-wrap: wrap;
     flex-direction: column;
     background-color: lavender;
-    margin: 0 10%;
+    margin: 0 auto;
 }
 
 .profile-image {
@@ -27,6 +27,7 @@ h1 {
     font-weight: 800;
     font-size: 1.2rem;
     padding-top: 1rem;
+    margin-bottom: 2rem;
    
 }
 
@@ -65,6 +66,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+h3 {
+    font-size: 1.3rem;
+}
+
 img {
     width: 80%;
     height: auto;
@@ -88,7 +93,7 @@ footer {
     display: flex;
     flex-direction: column;
     background-color: lavender;
-    margin: 4rem 1rem 2rem;
+    margin: 4rem 0 0;
 }
 
 .footer-tail {
@@ -145,6 +150,9 @@ h4,
         text-transform: uppercase;
         font-weight: bold;
     }
+    header {
+        width: 100vw;
+    }
 
 }   
 
@@ -167,18 +175,20 @@ h4,
     .intro {
         order: -1;
         margin-top: 1.4rem;
+        padding-left: 2.5rem;
+        text-align: left;
     }
     .profile-image {
         max-width: 40%;
         margin-bottom: 3rem;
-        margin-right: 1.5rem;
+        margin-right: 2.5rem;
     }
     .main-content {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
     .main-content section {
         flex-basis: 40%;
@@ -204,7 +214,7 @@ h4,
     }
     .footer-nav {
         display: flex;
-        
+        justify-content: flex-end;
         flex-grow: 1;
         
     }
@@ -218,14 +228,12 @@ h4,
     }
     .footer-tail {
         flex-direction: row;
-        
         display: flex;
         justify-content: space-between; 
     }
-    h4 {
-        margin-right: 30%;
-    }
-    
+   h1 {
+       font-size: 2rem;
+   }
     #footer-p {
         margin-left: 5rem;
         margin-right: 5rem;
@@ -233,3 +241,52 @@ h4,
     
 }
 
+@media screen and (min-width: 1024px) {
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-grow: 1;
+        margin-top: 1rem;
+    }
+    .main-nav {
+        margin-top: 0;
+        justify-content: flex-end;
+    }
+    h1 {
+        margin-right: auto;
+        margin-left: 2.5rem;
+        font-size: 1.8rem;
+    }
+    main {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-top: 3rem;
+        background-color: rgb(250, 250, 250);
+    }
+    body {
+        background-color: lavender;
+    }
+    h2 {
+        margin-bottom: 2rem;
+    }
+    .skills {
+        margin-top: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        background-color: rgb(250, 250, 250);
+    }
+    .skills h2 {
+        margin-top: 0;
+        
+    }
+    .main-content section {
+        flex-basis: 30%;
+    }
+    #footer-p {
+        margin-left: 15rem;
+        margin-right: 15rem;
+    }
+}
