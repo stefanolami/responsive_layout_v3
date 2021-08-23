@@ -81,7 +81,7 @@ img {
 }
 
 main p {
-    margin: 20px 15%;
+    padding: 20px 15%;
 }
 
 footer {
@@ -177,17 +177,24 @@ h4,
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-left: 2rem;
-        margin-right: 2rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
     .main-content section {
         flex-basis: 40%;
         flex-grow: 1;
         
     }
+    .main-content p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-bottom: 0;
+    }
     .main-content img {
         margin-left: 0;
         margin-right: 0;
+        width: 98%;
+        height: auto;
     }
     .skills img {
         max-width: 50%;
@@ -216,8 +223,9 @@ h4,
         justify-content: space-between; 
     }
     h4 {
-        margin-right: 28%;
+        margin-right: 30%;
     }
+    
     #footer-p {
         margin-left: 5rem;
         margin-right: 5rem;
