@@ -143,7 +143,7 @@ h4,
     .footer-nav {
         display:none;
     }
-    .main-nav li {
+    .main-nav a {
         background-color: white;
         padding: 1rem;
         margin: 5px 20px;
@@ -162,7 +162,7 @@ h4,
         justify-content: center;
         margin-top: 1rem;
     }
-    .main-nav li {
+    .main-nav a {
         flex-basis: 15%;
         text-transform: uppercase;
         font-weight: bold;
@@ -218,7 +218,7 @@ h4,
         flex-grow: 1;
         
     }
-    .footer-nav li {
+    .footer-nav a {
         font-weight: bold;
         text-transform: uppercase;
         list-style: none;
