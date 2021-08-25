@@ -28,7 +28,6 @@ h1 {
     font-size: 1.2rem;
     padding-top: 1rem;
     margin-bottom: 2rem;
-   
 }
 
 p {
@@ -105,7 +104,7 @@ footer {
 
 h4,
 .back {
-    margin:0 0;
+    margin: 0 0;
     padding: 1.2rem;
 }
 
@@ -116,7 +115,7 @@ h4,
 }
 
 .fh-item {
-    padding:1rem 0;
+    padding: 1rem 0;
 }
 
 .back {
@@ -170,7 +169,6 @@ h4,
 
     .header-image {
         display: flex;
-
     }
     .intro {
         order: -1;
@@ -193,7 +191,6 @@ h4,
     .main-content section {
         flex-basis: 40%;
         flex-grow: 1;
-        
     }
     .main-content p {
         padding-left: 2rem;
@@ -216,14 +213,11 @@ h4,
         display: flex;
         justify-content: flex-end;
         flex-grow: 1;
-        
     }
     .footer-nav a {
         font-weight: bold;
         text-transform: uppercase;
         list-style: none;
-        
-        
         padding: 1.2rem 1rem;
     }
     .footer-tail {
